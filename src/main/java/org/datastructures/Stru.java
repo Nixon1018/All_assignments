@@ -7,7 +7,7 @@ public class Stru {
 
     public static void execute() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("1.Array 2.Arraylist 3.list 4.Quiet");
+        logger.info("1.Array 2.Arraylist 3.list 4.Quiet");
         int n = 0;
 
         do {
