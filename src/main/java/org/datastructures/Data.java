@@ -4,6 +4,9 @@ import java.util.logging.Logger;
 
 public class Data {
     private static final Logger logger = Logger.getLogger("InfoLogging");
+    protected Data(){
+        logger.info("execute");
+    }
 
     public static void dataa() {
         List l = new List();
