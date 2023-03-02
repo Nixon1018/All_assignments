@@ -4,6 +4,9 @@ import java.util.logging.Logger;
 
 public class Stru {
     private static final Logger logger = Logger.getLogger("InfoLogging");
+    protected Stru(){
+        logger.info("execute");
+    }
 
     public static void execute() {
         Scanner sc = new Scanner(System.in);
